@@ -1,0 +1,93 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+.hero {
+    width: 100%;
+    height: auto;
+    padding: 50px 30px 50px 30px;
+    background-color: #ddd;
+}
+.container {
+    background-color: #fff;
+}
+.img {
+    border: 6px solid #000393;
+    display: block;
+    width: 60%;
+    margin: 40px 0px 40px 30px;
+    height: auto;
+}
+.five {
+    display: flex;
+    position: relative;
+}
+.links {
+    width: 60px;
+    background-color: #e0183a;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    position: absolute;
+    right: 0%;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+}
+.icons {
+    margin: auto;
+    font-size: 23px;
+    color: #ddd;
+}
+.seven {
+    padding-top: 40px !important;
+    padding-left: 40px !important
+}
+.seven h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+    line-height: 40px;
+    letter-spacing: 4px;
+}
+.seven h3 {
+    font-family: 'Montserrat', sans-serif;
+    color: #e0183a;
+    font-weight: medium;
+    font-size: 24px;
+    line-height: 24px;
+}
+.medium {
+    font-weight: 500;
+}
+.seven p {
+    color: #005581;
+    font-size: 16px;
+    line-height: 17px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+.phone {
+    background-color: blue;
+    color: #fff;
+    padding: 5px;
+}
+
+@media only screen and (max-width: 600px) {
+    .five {
+        display: block;
+        justify-content: center;
+    }
+    .links {
+        left: 30px;
+        width: 80%;
+        height: 70px;
+        display: flex;
+        flex-direction: row;
+    }
+    .img {
+        margin: 30px auto;
+
+    }
+    .seven .p {
+        align-self: center;
+    }
+}
